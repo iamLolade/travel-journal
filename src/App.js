@@ -1,6 +1,7 @@
 import Navbar from "./components/Navbar";
 import Data from "./Data";
 import Journal from "./components/Journal";
+import Footer from "./components/Footer";
 
 function App() {
 
@@ -17,6 +18,7 @@ function App() {
       <section>
         {journal}
       </section>
+      <Footer />
     </div>
   );
 }

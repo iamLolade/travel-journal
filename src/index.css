@@ -25,10 +25,10 @@ nav {
   justify-content: center;
   background-color: #F55A5A;
   padding: 25px;
-  font-size: 30px;
-  font-weight: 500;
+  font-size: 25px;
+  font-weight: 700;
   color: #fff;
-  letter-spacing: 1px;
+  letter-spacing: 3px;
 }
 
 .container {
@@ -95,4 +95,20 @@ hr {
 .brandLogo {
   font-size: 30px;
   margin-right: 3px;
+}
+
+.footer {
+  display: flex;
+  justify-content: center;
+  color: rgba(51, 51, 51, 0.473);
+  font-size: 14px;
+  margin-block: 10px;
+  padding-block: 10px;
+  letter-spacing: 2px;
+}
+
+.pinLogo {
+  width: 3%;
+  height: 25px;
+  padding-bottom: -30px;
 }

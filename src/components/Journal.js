@@ -1,3 +1,5 @@
+import pin from "../images/pin.png"
+
 const Journal = (props) => {
     return (
         <div>
@@ -5,8 +7,8 @@ const Journal = (props) => {
                 <img src={props.imageUrl} alt="journal-images" className="journal--image"/>
                 <div className="journal--details">
                     <div>
-                        <img src="" alt="" />
-                        <span className="location"><span className="brandLogo">🪡 </span>{props.location}</span>
+                        <img src="pin.png" alt="" className="pinLogo"/>
+                        <span className="location">{props.location}</span>
                         <a href={props.googleMapsUrl} target="_blank">View on Google Maps</a>
                     </div>
                     <h1>{props.title}</h1>
